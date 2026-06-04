@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# secrets / local config — never commit these
+.env
+.env.*
+.mcp.json
+.claude/
+
+# logs
+*.log
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
